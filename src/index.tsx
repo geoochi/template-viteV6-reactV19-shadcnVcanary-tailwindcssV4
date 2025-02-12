@@ -1,8 +1,5 @@
 import { createRoot } from 'react-dom/client'
 import './global.css'
+import App from './App'
 
-createRoot(document.getElementById('root')!).render(
-  <p className='flex flex-col h-screen items-center justify-center text-3xl'>
-    static template - vite@6 - react@19 - tailwindcss@4
-  </p>
-)
+createRoot(document.getElementById('root')!).render(<App />)
