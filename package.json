@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "packageManager": "pnpm@10.3.0",
+  "scripts": {
+    "d": "vite --open",
+    "b": "vite build",
+    "p": "pnpx http-server dist -p 3001"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.6",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.0.6",
+    "vite": "^6.1.0"
+  }
+}
